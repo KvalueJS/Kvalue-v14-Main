@@ -1,0 +1,31 @@
+{
+  "name": "kvalue-v14-main",
+  "version": "1.0.0",
+  "description": "Kvalue v14 Boş ALtyapı!",
+  "main": "kvalue.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KvalueJS/Kvalue-v14-Main.git"
+  },
+  "keywords": [
+    "Kvalue",
+    "discord.js",
+    "node.js"
+  ],
+  "author": "KvalueJS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KvalueJS/Kvalue-v14-Main/issues"
+  },
+  "homepage": "https://github.com/KvalueJS/Kvalue-v14-Main#readme",
+  "dependencies": {
+    "discord-modals": "^1.3.7",
+    "discord-reply": "^0.1.2",
+    "discord.js": "^14.0.0-dev.1640865766.780b7ed",
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.3.2"
+  }
+}
