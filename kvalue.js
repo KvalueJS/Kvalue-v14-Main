@@ -1,6 +1,6 @@
 const { Kvalue } = require("./src/AppBase.js");
 require("discord-reply");
-const client = (global.client = new Kvalue({ intents: Kvalue.allIntents }));
+const client = (global.client = new Kvalue());
 require("discord-modals")(client);
 
 require("./src/Loaders/commandLoader.js");
