@@ -2,7 +2,7 @@ const { Client, Collection, Intents } = require("discord.js");
 
 class Kvalue extends Client {
   constructor(options){
-    super(options);
+    super({ intents: Object.keys(Intents.FLAGS) });
 
     this.Config = require("./Configs/Config.json");
     this.Keys = require("./Configs/Keys.json");
@@ -23,8 +23,6 @@ class Kvalue extends Client {
     this.clickKick = new Map();
     this.clickTimeout = new Map();
     this.clickUpdate = new Map();
-
-    this.allIntents = Object.keys(Intents.FLAGS)
   }
 }
 
